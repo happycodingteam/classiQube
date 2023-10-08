@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Atocha Caps';
+    src: url('AtochaCaps.eot');
+    src: local('AtochaCaps'),
+        url('AtochaCaps.eot?#iefix') format('embedded-opentype'),
+        url('AtochaCaps.woff2') format('woff2'),
+        url('AtochaCaps.woff') format('woff'),
+        url('AtochaCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atocha';
+    src: url('Atocha.eot');
+    src: local('Atocha'),
+        url('Atocha.eot?#iefix') format('embedded-opentype'),
+        url('Atocha.woff2') format('woff2'),
+        url('Atocha.woff') format('woff'),
+        url('Atocha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flama';
+    src: url('Flama.woff2') format('woff2'),
+        url('Flama.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Book';
+    src: url('Flama-Book.woff2') format('woff2'),
+        url('Flama-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('MinionPro-Regular.woff2') format('woff2'),
+        url('MinionPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('Chalkduster.woff2') format('woff2'),
+        url('Chalkduster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,247 @@
+
+/*============
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Playfair Display', serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+
+
+/*=========================================*/
+/*==========Start Hero Section==========*/
+/*=========================================*/
+
+.main-header-section{
+    padding: 40px 0px 70px;
+}
+.back-button{}
+.back-button .back-arrow-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back-button .back-arrow-link .bx-arrow-back{
+    font-size: 25px;
+    font-weight: 800;
+    color: #000;
+    margin-right: 10px;
+}
+.back-button .back-arrow-link .back-text{
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.logo-area{
+    text-align: center;
+    padding: 20px 0px;
+}
+.logo-area .logo-link{
+
+}
+.logo-area .logo-link .logo{
+    height: 140px;
+    width: 240px;
+}
+
+
+
+
+/*=========================================*/
+/*==========Start User Form Section==========*/
+/*=========================================*/
+
+.user-form-area{}
+.form-heading-area{
+    text-align: center;
+    padding: 20px 0px 60px;
+}
+.form-heading-area .form-heading{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.main-form{}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-group{
+    flex-basis: 45%;
+}
+.form-group .label-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 10px;
+}
+.form-group .input-box{
+    border: 1px solid #000;
+    border-radius: 7px;
+    background: #F4F4F4;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.form-group .textarea-box{
+    border: 1px solid #000;
+    border-radius: 7px;
+    background: #F4F4F4;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 35px;
+    height: 150px;
+    resize: none;
+}
+
+@media all and (max-width:767px) {
+    .form-group{
+        flex-basis: 100%;
+    }
+    .form-heading-area .form-heading {
+        font-size: 45px;
+       
+    }
+}
+@media all and (max-width:390px) {
+
+    .form-heading-area .form-heading {
+        font-size: 35px;
+       
+    }
+}
+
+
+/* ------------------------Select Collection Section---------------------------- */
+
+.select-collection-area{}
+.select-collection-area .select-collection-heading{
+    text-align: center;
+    padding: 40px 0px 60px;
+}
+.select-collection-area .select-collection-heading .select-collection-heading-text{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+.flex-box-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-collection-box{
+    width: 30%;
+    border: 1px solid #000;
+    padding: 30px;
+    background: #F4F4F4;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+.select-collection-box .select-collection-name{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 60px;
+}
+.select-collection-box .arrow-box{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    
+   
+}
+
+
+#down-arrow{
+display: none;
+}
+
+.active-s-c-box{
+    background: #ffffff;
+}
+
+.active-s-c-box #down-arrow{
+    display: block;
+}
+
+.active-s-c-box #right-arrow{
+    display: none;
+}
+
+
+
