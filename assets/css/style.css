@@ -85,7 +85,12 @@ body {
     width: 240px;
 }
 
+@media all and (max-width:767px) {
+    .main-header-section {
+        padding: 40px 0px 20px;
+    }
 
+}
 
 
 /*=========================================*/
@@ -160,11 +165,10 @@ body {
        
     }
 }
-@media all and (max-width:390px) {
+@media all and (max-width:480px) {
 
     .form-heading-area .form-heading {
-        font-size: 35px;
-       
+        font-size: 30px;
     }
 }
 
@@ -188,6 +192,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .select-collection-box{
     width: 30%;
@@ -242,6 +247,200 @@ display: none;
 .active-s-c-box #right-arrow{
     display: none;
 }
+
+
+@media all and (max-width:1200px) {
+    .select-collection-box .select-collection-name {
+        font-size: 30px;
+        
+        padding-bottom: 60px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .select-collection-box .select-collection-name {
+        font-size: 28px;
+        
+        padding-bottom: 60px;
+    }
+    .select-collection-box {
+        width: 32%;
+      
+        padding: 10px;
+      
+        height: 260px;
+       
+    }
+    .select-collection-area .select-collection-heading .select-collection-heading-text {
+        font-size: 38px;
+       
+    }
+}
+
+@media all and (max-width:767px) {
+    .select-collection-box .select-collection-name {
+        font-size: 20px;
+        
+        padding-bottom: 30px;
+    }
+    .select-collection-box {
+        width: 32%;
+      
+        padding: 10px;
+      
+        height: 200px;
+  
+       
+    }
+    .select-collection-area .select-collection-heading .select-collection-heading-text {
+        font-size: 38px;
+       
+    }
+}
+@media all and (max-width:575px) {
+    .select-collection-box .select-collection-name {
+        font-size: 17px;
+        
+        padding-bottom: 15px;
+    }
+    .select-collection-box {
+        width: 32%;
+      
+        padding: 10px;
+      
+        height: 170px;
+      
+       
+    }
+}
+@media all and (max-width:480px) {
+    .select-collection-box .select-collection-name {
+        font-size: 15px;
+        
+        padding-bottom: 15px;
+    }
+    .select-collection-box {
+       
+      
+        padding: 10px 3px;
+      
+        height: 150px;
+       
+       
+    }
+    .select-collection-box .arrow-box {
+        font-size: 20px;
+       
+        height: 20px;
+        width: 20px;
+       
+    }
+}
+
+@media all and (max-width:385px) {
+    .select-collection-box .select-collection-name {
+        font-size: 13px;
+        
+        padding-bottom: 15px;
+    }
+    .select-collection-box {
+       
+      
+        padding: 10px 3px;
+      
+        height: 100px;
+       
+       
+    }
+    .select-collection-area .select-collection-heading .select-collection-heading-text {
+        font-size: 30px;
+       
+    }
+}
+
+
+
+/* ------------------------Show Collection Section---------------------------- */
+
+
+.show-collection-area{
+    padding: 40px 0px;
+}
+.show-collection-area .show-collection-heading{
+    text-align: center;
+    padding: 40px 0px 60px;
+}
+.show-collection-area .show-collection-heading .show-collection-heading-text{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+}
+.flex-box-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.show-collection-area .show-collection-item{
+    text-align: center;
+    width: 23%;
+    border: 1px solid #000;
+    padding: 30px;
+    background: #F4F4F4;
+}
+.show-collection-area .show-collection-item .product-img{
+    height: auto;
+    width: 100%;
+
+}
+.show-collection-area .show-collection-item .product-name{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    line-height: normal;
+    padding: 15px 0px;
+}
+.show-collection-area .show-collection-item .expand-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+
+
+
+.arrow-box-show{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+   
+}
+
+
+#down-arrow-show{
+display: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
