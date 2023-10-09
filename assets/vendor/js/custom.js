@@ -8,6 +8,9 @@ $(document).ready(function(){
        
         $(".select-collection-box").removeClass("active-s-c-box");
     });
+
+
+
 });
 
 
