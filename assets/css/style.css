@@ -421,6 +421,7 @@ body {
     top: 10px;
     padding-bottom: 5px;
     padding-left: 15px;
+    display: none;
 }
 
 .select-product-box .text {
@@ -443,6 +444,24 @@ body {
 	margin-left: 5px;
 	display: inline-block;
 }
+
+.active-p{
+    background: #ffffff !important;
+}
+.active-p .select-product-box{
+    display: block;
+}
+
+.active-p #down-arrow-show{
+    display: block;
+}
+.active-p #right-arrow-show{
+    display: none;
+}
+
+
+
+
 @media only screen and (max-width: 1399px) and (min-width: 1200px){
     .show-collection-area .show-collection-item .product-name {
         font-size: 20px;
@@ -627,13 +646,16 @@ body {
 
 /* ------------------------Product details Area---------------------------- */
 .product-details-area {
+
+    display: none;
+}
+.product-details-flex-box{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 60px;
 }
-
 .show-details-item {
     flex-basis: 23%;
     margin-bottom: 40px;
