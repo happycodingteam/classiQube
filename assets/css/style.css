@@ -248,6 +248,16 @@ body {
 .active-s-c-box #right-arrow {
     display: none;
 }
+@media all and (max-width:1500px) {
+    .select-collection-box .select-collection-name {
+        font-size: 37px;
+       
+    }
+    .furniture-item .furniture-name {
+        font-size: 22px;
+      
+    }
+}
 
 @media all and (max-width:1200px) {
     .select-collection-box .select-collection-name {
@@ -901,6 +911,13 @@ body {
     font-weight: 700;
     color: #000;
     line-height: normal;
+}
+@media all and (max-width:1500px) {
+   
+    .furniture-item .furniture-name {
+        font-size: 22px;
+      
+    }
 }
 
 @media all and (max-width:991px) {
