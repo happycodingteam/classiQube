@@ -1108,8 +1108,40 @@ body {
 
 
 
+/* -------------------------Extra Css Added here--------------------------- */
+#mainBodyArea{
+    border-top: 8px solid #000;
+}
 
 
 
+.main-header-section{
+    background: #FFF9F6;
+}
+.user-form-area{
+   position: relative;
+}
+.user-form-area::after{
 
+    content: '';
+    clear: both;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background: #FFF9F6;
+    z-index: -1;
+}
+.logo-area .logo-link .logo {
+	height: 157px;
+	width: 210px;
+}
 
+@media all and (max-width:767px) {
+    .user-form-area::after{
+
+        height: 1150px;
+       
+    }
+}
