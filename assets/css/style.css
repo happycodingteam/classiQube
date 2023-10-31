@@ -366,9 +366,10 @@ body {
 }
 
 .flex-box-three {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .show-collection-area .show-collection-item {
@@ -377,6 +378,8 @@ body {
     border: 1px solid #000;
     padding: 30px;
     background: #F4F4F4;
+    margin-right: 2%;
+    margin-bottom: 40px;
 }
 
 .show-collection-area .show-collection-item .product-img {
@@ -520,7 +523,13 @@ body {
     }
 
     .show-collection-area .show-collection-item {
-        padding: 15px;
+        
+        width: 31.2%;
+       
+        padding: 30px;
+       
+        margin-right: 2%;
+        margin-bottom: 40px;
     }
 
     .arrow-box-show {
@@ -540,7 +549,7 @@ body {
     }
 
     .select-product-box .text .note-text {
-        font-size: 10px;
+        font-size: 13px;
         margin-left: 2px;
     }
 
@@ -565,10 +574,19 @@ body {
         font-size: 14px;
         padding: 6px 0px;
     }
-
+    .flex-box-three {
+        
+        justify-content: space-between;
+       
+    }
     .show-collection-area .show-collection-item {
-        flex-basis: 24%;
-        padding: 15px 7px;
+        
+        width: 46%;
+       
+        padding: 15px;
+       
+        margin-right: 2%;
+        margin-bottom: 40px;
     }
 
     .arrow-box-show {
@@ -579,7 +597,7 @@ body {
     }
 
     .show-collection-area .show-collection-item .expand-text {
-        font-size: 14px;
+        font-size: 19px;
         margin-bottom: 10px;
     }
     .show-collection-area .show-collection-item .product-img {
@@ -588,29 +606,19 @@ body {
         margin-top: 50px;
     }
     .show-collection-area .show-collection-item .expand-text {
-        font-size: 11px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 }
 
-@media all and (max-width:576px) {
-    .select-product-box .text .bx-check {
-        font-weight: 600;
-        margin-right: 0px;
-        color: green;
-        display: none;
-    }
-}
+
 
 @media all and (max-width:480px) {
-    .show-collection-area .show-collection-item .expand-text {
-        font-size: 11px;
-        margin-bottom: 7px;
-    }
+
 
     .show-collection-area .show-collection-item {
-        flex-basis: 24%;
-        padding: 5px 7px;
+        flex-basis: 100%;
+        padding: 30px;
     }
 
     .show-collection-area .show-collection-heading .show-collection-heading-text {
@@ -623,36 +631,13 @@ body {
         margin-top: 40px;
     }
 
-    .show-collection-area .show-collection-item .product-name {
-        font-size: 13px;
-        padding: 6px 0px;
-    }
-
-    .show-collection-area .show-collection-item .expand-text {
-        font-size: 10px;
-        margin-bottom: 7px;
-    }
 
     .select-product-box {
         top: 0px;
     }
-    .show-collection-area .show-collection-item .product-img {
-        height: auto;
-        width: 100%;
-        margin-top: 60px;
-    }
+
 }
 
-@media all and (max-width:380px) {
-    .show-collection-area .show-collection-item .product-img {
-
-        margin-top: 65px;
-    }
-    .select-product-box .text .note-text {
-        font-size: 9px;
-        margin-left: 2px;
-    }
-}
 
 /* ------------------------Product details Area---------------------------- */
 .product-details-area {
@@ -661,7 +646,7 @@ body {
 }
 .product-details-flex-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 60px;
@@ -670,6 +655,7 @@ body {
     flex-basis: 23%;
     margin-bottom: 40px;
     border: 1px solid #F2F2F2;
+    margin-right: 2%;
 }
 
 .show-details-item .checkbox-button {
@@ -835,13 +821,24 @@ body {
 
 @media only screen and (max-width: 1399px) and (min-width: 992px) {
     .show-details-item {
-        flex-basis: 32%;
+        flex-basis: 31.2%;
     }
 }
 
 @media all and (max-width:991px) {
+    .product-details-flex-box{
+      
+        justify-content: space-between;
+       
+    }
+
     .show-details-item {
         flex-basis: 48%;
+        margin-right: 0;
+    }
+    .show-item-details .show-details-product-name {
+        font-size: 21px;
+       
     }
 }
 
